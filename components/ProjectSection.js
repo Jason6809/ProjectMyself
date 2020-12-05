@@ -115,7 +115,7 @@ export default function ProjectSection() {
                 <li>
                   <a
                     target='_blank'
-                    href='https://southernuniversitycollege-my.sharepoint.com/:u:/g/personal/b170090a_sc_edu_my/EdTnVzPTgG5NsRKf15SthV4BUwqv0RlVwO4y60RQvli10g?e=UcUzLm'
+                    href='https://firebasestorage.googleapis.com/v0/b/jason-tam.appspot.com/o/venus-client-release.apk?alt=media&token=782a1d99-3c23-4d87-8319-a19430d53517'
                     className='lead btn btn-sm bg-dark-blue custom-font-weight-300 custom-font-size-1-15-rem mb-2 px-3 w-100'>
                     Client APK Download
                   </a>
@@ -135,7 +135,7 @@ export default function ProjectSection() {
                 <li>
                   <a
                     target='_blank'
-                    href='https://southernuniversitycollege-my.sharepoint.com/:u:/g/personal/b170090a_sc_edu_my/EUeMo5dduHhEgNueLcQN3_8Bt6IIyijlLp0xavWQZBESNg?e=toiX9B'
+                    href='https://firebasestorage.googleapis.com/v0/b/jason-tam.appspot.com/o/venus-stylist-release.apk?alt=media&token=c9fc3c9c-158b-407a-8ff9-1a9dcf390a3d'
                     className='lead btn btn-sm bg-dark-blue custom-font-weight-300 custom-font-size-1-15-rem mb-2 px-3 w-100'>
                     Stylist APK Download
                   </a>
