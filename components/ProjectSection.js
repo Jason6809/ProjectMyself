@@ -46,7 +46,7 @@ export default function ProjectSection() {
                   </div>
 
                   <div className='col-12 col-md-6 col-lg-4'>
-                    <img src='https://i0.wp.com/www.computersnyou.com/wp-content/uploads/2014/12/postgresql-logo.png?fit=610%2C280&ssl=1' className='img-fluid px-3' />
+                    <img src='https://www.pngitem.com/pimgs/m/197-1973694_transparent-png-postgresql-logo-png-download.png' className='img-fluid px-3' />
                   </div>
 
                   <div className='col-12 col-md-6 col-lg-4'>
