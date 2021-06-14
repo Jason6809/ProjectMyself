@@ -1,7 +1,7 @@
 export default function IntroSection() {
   return (
     <section id='introSection'>
-      <div className='container-lg pt-5 min-vh-100 d-flex flex-column justify-content-center'>
+      <div className='container-fluid pt-5 min-vh-100 d-flex flex-column justify-content-center'>
         <div className='row'>
           <div className='col'>
             <div>
@@ -43,17 +43,37 @@ export default function IntroSection() {
             </div>
 
             <div className='col-12 col-md-6 col-lg-4'>
-              <ul className='custom-list-style-none'>
-                <li>
-                  <p className='lead custom-font-weight-499 custom-font-size-1-15-rem m-0 w-100'>
-                    Contact Me:
-                  </p>
-                </li>
-              </ul>
 
               <ul className='custom-list-style-none'>
                 <li>
-                  <a href='https://www.facebook.com/jason.tam.007' target='_blank' className='lead btn btn-sm bg-dark-blue custom-font-weight-300 custom-font-size-1-15-rem mb-2 px-3 w-100'>
+                  <p className='lead custom-font-weight-499 custom-font-size-1-15-rem m-0 w-100 mb-3'>
+                    My Resume:
+                  </p>
+                </li>
+
+                <li>
+                  <a
+                    target='_blank'
+                    className='lead btn btn-sm bg-dark-blue custom-font-weight-300 custom-font-size-1-15-rem mb-2 px-3 w-100'
+                    href='https://firebasestorage.googleapis.com/v0/b/jason-tam.appspot.com/o/My%20New%20Resume.pdf?alt=media&token=36f6bcd9-8293-41ab-9eab-2c3576393531'>
+                    Download PDF
+                  </a>
+                </li>
+              </ul>
+
+
+              <ul className='custom-list-style-none'>
+                <li>
+                  <p className='lead custom-font-weight-499 custom-font-size-1-15-rem m-0 w-100 mb-3'>
+                    Contact Me:
+                  </p>
+                </li>
+
+                <li>
+                  <a
+                    target='_blank'
+                    href='https://www.facebook.com/jason.tam.007'
+                    className='lead btn btn-sm bg-dark-blue custom-font-weight-300 custom-font-size-1-15-rem mb-2 px-3 w-100'>
                     Facebook
                   </a>
                 </li>
@@ -68,6 +88,6 @@ export default function IntroSection() {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   )
 }

@@ -27,7 +27,7 @@ export default function Home() {
 
             <Scrollspy
               componentTag='nav'
-              className='nav nav-pills flex-column'
+              className='nav nav-pills flex-column custom-nav-pills'
               currentClassName='active shadow'
               items={sections}
             >
@@ -38,11 +38,13 @@ export default function Home() {
           </div>
 
           <div className='offset-lg-3 col-12 col-lg-9'>
-            <IntroSection />
+            <div className='pb-5 mb-5'>
+              <IntroSection />
 
-            <ExpSection />
+              <ExpSection />
 
-            <ProjectSection />
+              <ProjectSection />
+            </div>
           </div>
         </div>
       </div>
